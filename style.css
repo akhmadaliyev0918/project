@@ -1,0 +1,508 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgb(95, 0, 95);
+}
+
+
+.container {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+}
+
+
+.fire1 {
+    width: 40px;
+    height: 150px;
+    border-radius: 50px;
+    background: rgba(255, 143, 39, 0.9);
+    box-shadow: 0px 0px 30px 30px  #d4d40065;
+    z-index: 1;
+    position: absolute;
+    top: 140px;
+    left: 100px;
+    z-index: 1;
+    animation: fire1 3s linear infinite;
+}
+
+.fire2 {
+    width: 40px;
+    height: 190px;
+    border-radius: 50px;
+    background: rgba(255, 143, 39, 0.9);
+    box-shadow: 0px 0px 30px 30px  #d4d40065;
+    z-index: 1;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    z-index: 1;
+    animation: fire2 2s linear infinite;
+}
+.fire3 {
+    width: 40px;
+    height: 220px;
+    border-radius: 50px;
+    background: rgba(255, 143, 39, 0.9);
+    box-shadow: 0px 0px 30px 30px  #d4d40065;
+    z-index: 1;
+    position: absolute;
+    top: 70px;
+    left: 200px;
+    z-index: 1; 
+    animation: fire3 3s linear infinite;
+}
+
+.fire4 {
+    width: 40px;
+    height: 180px;
+    border-radius: 50px;
+    background: rgba(255, 143, 39, 0.9);
+    box-shadow: 0px 0px 30px 30px  #d4d40065;
+    z-index: 1;
+    position: absolute;
+    top: 110px;
+    left: 250px;
+    z-index: 1; 
+    animation: fire4 2.5s linear infinite;
+}
+    
+.fire5 {
+    width: 40px;
+    height: 150px;
+    border-radius: 50px;
+    background: rgba(255, 143, 39, 0.9);
+    box-shadow: 0px 0px 30px 30px  #d4d40065;
+    z-index: 1;
+    position: absolute;
+    top: 140px;
+    left: 300px;
+    z-index: 1; 
+    animation: fire5 3s linear infinite;
+}
+
+.fire6 {
+    width: 40px;
+    height: 120px;
+    border-radius: 50px;
+    background: rgba(255, 143, 39, 0.9);
+    box-shadow: 0px 0px 30px 30px  #d4d40065;
+    z-index: 1;
+    position: absolute;
+    top: 170px;
+    left: 120px;
+    z-index: 1;
+    animation: fire6 3s linear infinite;
+}
+
+.fire7 {
+    width: 40px;
+    height: 160px;
+    border-radius: 50px;
+    background: rgba(255, 233, 39, 0.9);
+    box-shadow: 0px 0px 30px 30px  #d4d40065;
+    z-index: 1;
+    position: absolute;
+    top: 130px;
+    left: 170px;
+    z-index: 1;
+    animation: fire7 2s linear infinite;
+}
+.fire8 {
+    width: 40px;
+    height: 190px;
+    border-radius: 50px;
+    background: rgba(255, 223, 39, 0.9);
+    box-shadow: 0px 0px 30px 30px  #d4d40065;
+    z-index: 1;
+    position: absolute;
+    top: 100px;
+    left: 220px;
+    z-index: 1;
+    animation: fire8 3s linear infinite; 
+}
+
+.fire9 {
+    width: 40px;
+    height: 150px;
+    border-radius: 50px;
+    background: rgba(255, 223, 39, 0.9);
+    box-shadow: 0px 0px 30px 30px  #d4d40065;
+    z-index: 1;
+    position: absolute;
+    top: 140px;
+    left: 270px;
+    z-index: 1; 
+    animation: fire9 4s linear infinite;
+}
+    
+.fire10 {
+    width: 40px;
+    height: 120px;
+    border-radius: 50px;
+    background: rgba(255, 251, 39, 0.9);
+    box-shadow: 0px 0px 30px 30px  #d4d40065;
+    z-index: 1;
+    position: absolute;
+    top: 170px;
+    left: 320px;
+    z-index: 1; 
+    animation: fire10 3s linear infinite;
+}
+
+
+.fire11 {
+    width: 40px;
+    height: 80px;
+    border-radius: 50px;
+    background: #fffd8ee6;
+    box-shadow: 0px 0px 30px 30px  #d4d40065;
+    z-index: 1;
+    position: absolute;
+    top: 210px;
+    left: 90px;
+    z-index: 1;
+    animation: fire11 3s linear infinite;
+}
+.fire12 {
+    width: 40px;
+    height: 100px;
+    border-radius: 50px;
+    background: #fffd8ee6;
+    box-shadow: 0px 0px 30px 30px  #d4d40065;
+    z-index: 1;
+    position: absolute;
+    top: 190px;
+    left: 130px;
+    z-index: 1;
+    animation: fire12 3s linear infinite;
+}
+.fire13 {
+    width: 40px;
+    height: 90px;
+    border-radius: 50px;
+    background: #fffd8ee6; 
+    box-shadow: 0px 0px 30px 30px  #d4d40065;
+    z-index: 1;
+    position: absolute;
+    top: 200px;
+    left: 170px;
+    z-index: 1;
+    animation: fire13 2s linear infinite;
+}
+.fire14 {
+    width: 40px;
+    height: 120px;
+    border-radius: 50px;
+    background: #fffd8ee6;
+    box-shadow: 0px 0px 30px 30px  #d4d40065;
+    z-index: 1;
+    position: absolute;
+    top: 170px;
+    left: 210px;
+    z-index: 1;
+    animation: fire14 3s linear infinite;
+}
+.fire15 {
+    width: 40px;
+    height: 100px;
+    border-radius: 50px;
+    background: #fffd8ee6;
+    box-shadow: 0px 0px 30px 30px  #d4d40065;
+    z-index: 1;
+    position: absolute;
+    top: 210px;
+    left: 255px;
+    z-index: 1;
+    animation: fire15 3s linear infinite;
+}
+.fire16 {
+    width: 40px;
+    height: 110px;
+    border-radius: 50px;
+    background: #fffd8ee6;
+    box-shadow: 0px 0px 30px 30px  #d4d40065;
+    z-index: 1;
+    position: absolute;
+    top: 180px;
+    left: 310px;
+    z-index: 1;
+    animation: fire16 3s linear infinite;
+}
+.fire17 {
+    width: 40px;
+    height: 80px;
+    border-radius: 50px;
+    background: #fffd8ee6;
+    box-shadow: 0px 0px 30px 30px  #d4d40065;
+    z-index: 1;
+    position: absolute;
+    top: 210px;
+    left: 265px;
+    z-index: 1;
+    animation: fire17 3s linear infinite;
+}
+
+@keyframes fire1 {
+    0% {
+        top: 140px;
+    }
+    50% {
+        top: 170px;
+    }
+}
+@keyframes fire2 {
+    0% {
+        top: 100px;
+    }
+    50% {
+        top: 135px;
+    }
+}
+@keyframes fire3 {
+    0% {
+        top: 70px;
+    }
+    50% {
+        top: 103px;
+    }
+}
+@keyframes fire4 {
+    0% {
+        top: 110px;
+    }
+    50% {
+        top: 135px;
+    }
+}
+@keyframes fire5 {
+    0% {
+        top: 140px;
+    }
+    50% {
+        top: 160px;
+    }
+}
+@keyframes fire6 {
+    0% {
+        top: 170px;
+    }
+    50% {
+        top: 200px;
+    }
+}
+@keyframes fire7 {
+    0% {
+        top: 130px;
+    }
+    50% {
+        top: 160px;
+    }
+}
+@keyframes fire8 {
+    0% {
+        top: 100px;
+    }
+    50% {
+        top: 125px;
+    }
+}
+@keyframes fire9 {
+    0% {
+        top: 140px;
+    }
+    50% {
+        top: 175px;
+    }
+}
+@keyframes fire10 {
+    0% {
+        top: 170px;
+    }
+    50% {
+        top: 200px;
+    }
+}
+@keyframes fire11 {
+    0% {
+        top: 210px;
+    }
+    50% {
+        top: 235px;
+    }
+}
+@keyframes fire12 {
+    0% {
+        top: 190px;
+    }
+    50% {
+        top: 220px;
+    }
+}
+@keyframes fire13 {
+    0% {
+        top: 200px;
+    }
+    50% {
+        top: 225px;
+    }
+}
+@keyframes fire14 {
+    0% {
+        top: 170px;
+    }
+    50% {
+        top: 200px;
+    }
+}
+@keyframes fire15 {
+    0% {
+        top: 210px;
+    }
+    50% {
+        top: 240px;
+    }
+}
+@keyframes fire16 {
+    0% {
+        top: 180px;
+    }
+    50% {
+        top: 210px;
+    }
+}
+@keyframes fire17 {
+    0% {
+        top: 210px;
+    }
+    50% {
+        top: 240px;
+    }
+}
+
+
+
+.wood1 {
+    width: 60px;
+    height: 150px;
+    border-radius: 50px;
+    background: rgb(160, 47, 47);
+    position: absolute;
+    top: 200px;
+    left: 140px;
+    z-index: 2;
+    transform: rotate(20deg);
+}
+
+.woodin {
+    height: 40px;
+    width: 60px;
+    border-radius: 50%;
+    background: rgb(240, 123, 69);
+    border: 3px solid rgb(160, 47, 47);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.line {
+    height: 30px;
+    width: 43px;
+    border-radius: 50%;
+    background: rgb(240, 123, 69);
+    border: 3px solid rgb(160, 47, 47);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.linein {
+    height: 15px;
+    width: 28px;
+    border-radius: 50%;
+    background: rgb(240, 123, 69);
+    border: 3px solid rgb(160, 47, 47);
+}
+
+
+
+
+.wood2 {
+    width: 60px;
+    height: 150px;
+    border-radius: 50px;
+    background: rgb(160, 47, 47);
+    position: absolute;
+    top: 220px;
+    left: 190px;
+    z-index: 2;
+    transform: rotate(-110deg);
+}
+
+.wood3 {
+    width: 60px;
+    height: 150px;
+    border-radius: 50px;
+    background: rgb(160, 47, 47);
+    position: absolute;
+    top: 220px;
+    left: 260px;
+    z-index: 2;
+    transform: rotate(-110deg);
+}
+.wood4 {
+    width: 60px;
+    height: 150px;
+    border-radius: 50px;
+    background: rgb(160, 47, 47);
+    position: absolute;
+    top: 220px;
+    left: 90px;
+    z-index: 2;
+    transform: rotate(60deg);
+}
+.wood5 {
+    width: 60px;
+    height: 150px;
+    border-radius: 50px;
+    background: rgb(160, 47, 47);
+    position: absolute;
+    top: 220px;
+    left: 200px;
+    z-index: 2;
+    transform: rotate(120deg);
+}
+.wood6 {
+    width: 60px;
+    height: 150px;
+    border-radius: 50px;
+    background: rgb(160, 47, 47);
+    position: absolute;
+    top: 220px;
+    left: 300px;
+    z-index: 2;
+    transform: rotate(-40deg);
+}
+.wood7 {
+    width: 60px;
+    height: 150px;
+    border-radius: 50px;
+    background: rgb(160, 47, 47);
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    z-index: -1;
+    transform: rotate(-110deg);
+}
